@@ -8,4 +8,4 @@ class Solution:
                 for j in range(1,len(l)-1):
                     l[j] = L[i-1][j-1]+L[i-1][j]
                 L.append(l)
-        return l
+        return L[rowIndex]
